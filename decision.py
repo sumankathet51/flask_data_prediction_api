@@ -202,3 +202,6 @@ def make_prediction(predict_data):
     classifier.fit(X, Y)
 
     return np.asscalar(np.array(classifier.predict(predict_data)))
+
+
+# print(make_prediction([[3, 0, 1, 0, 1]]))
